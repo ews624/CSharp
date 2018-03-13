@@ -65,6 +65,7 @@ namespace ConsoleApp1
                 case 3: Console.Write("You chose 3\n");
                     break;
             }
+            Console.OutputEncoding = System.Text.Encoding.UTF8;
             Console.Write("{0} is an integral\n", integral);
             for( int i = 5; i <=10; i++)
             {
